@@ -1,0 +1,19 @@
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="WebFormCalender2.aspx.cs" Inherits="WebApplicationCalenderControl.WebFormCalender2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Calendar Vacation Highlighter</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+         <div style="margin:20px">
+            <h2>Vacation Highlighter Calendar</h2>
+            <asp:Calendar ID="Calendar1" runat="server" 
+                OnDayRender="Calendar1_DayRender">
+            </asp:Calendar>
+        </div>
+    </form>
+</body>
+</html>
