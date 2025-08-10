@@ -69,6 +69,11 @@
   <ItemGroup>
     <Content Include="Web.config" />
     <Content Include="WebFormCalender1.aspx" />
+    <Content Include="WebFormCalender2.aspx" />
+    <Content Include="WebFormCalender3.aspx" />
+    <Content Include="WebFormCalenderSelectedDayStyle.aspx" />
+    <Content Include="WebFormCalenderVacationDays.aspx" />
+    <Content Include="WebFormDayDifference.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -78,6 +83,41 @@
     </Compile>
     <Compile Include="WebFormCalender1.aspx.designer.cs">
       <DependentUpon>WebFormCalender1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormCalender2.aspx.cs">
+      <DependentUpon>WebFormCalender2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormCalender2.aspx.designer.cs">
+      <DependentUpon>WebFormCalender2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormCalender3.aspx.cs">
+      <DependentUpon>WebFormCalender3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormCalender3.aspx.designer.cs">
+      <DependentUpon>WebFormCalender3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormCalenderSelectedDayStyle.aspx.cs">
+      <DependentUpon>WebFormCalenderSelectedDayStyle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormCalenderSelectedDayStyle.aspx.designer.cs">
+      <DependentUpon>WebFormCalenderSelectedDayStyle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormCalenderVacationDays.aspx.cs">
+      <DependentUpon>WebFormCalenderVacationDays.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormCalenderVacationDays.aspx.designer.cs">
+      <DependentUpon>WebFormCalenderVacationDays.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WebFormDayDifference.aspx.cs">
+      <DependentUpon>WebFormDayDifference.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebFormDayDifference.aspx.designer.cs">
+      <DependentUpon>WebFormDayDifference.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

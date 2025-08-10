@@ -14,7 +14,8 @@
                 OnSelectionChanged="Calendar1_SelectionChanged"
                 OnDayRender="Calendar1_DayRender"></asp:Calendar>
             <br />
-            <asp:Label ID="lblMessage" runat="server" Font-Bold="true" Font-Size="Larger" ForeColor="SteelBlue"></asp:Label>
+            <asp:Label ID="lblMessage" runat="server" Font-Bold="true" 
+                Font-Size="Larger" ForeColor="SteelBlue"></asp:Label>
         </div>
     </form>
 </body>

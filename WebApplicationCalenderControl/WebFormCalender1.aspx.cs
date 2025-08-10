@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.EnterpriseServices.Internal;
-using System.Linq;
-using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
@@ -15,7 +12,8 @@ namespace WebApplicationCalenderControl
 
         }
 
-        public static readonly Dictionary<DateTime,string> impDates = new Dictionary<DateTime,string>() {
+        public static readonly Dictionary<DateTime,string> impDates
+            = new Dictionary<DateTime,string>() {
             {new DateTime(2025,8,15),"Independence Day" },
             {new DateTime(2025,8,9),"RakshaBandhan" },
             {new DateTime(2025,8,19),"Janmashtami" },
@@ -33,7 +31,8 @@ namespace WebApplicationCalenderControl
             if(impDates.ContainsKey(e.Day.Date))
             {
                 //e.Cell.BackColor = System.Drawing.Color.RoyalBlue;
-                e.Cell.Controls.Add(new LiteralControl("<br/> <span style='color:red;'>" + impDates[e.Day.Date] + "</span>"));
+                e.Cell.Controls.Add(new LiteralControl("<br/>" +
+        " <span style='color:red;'>" + impDates[e.Day.Date] + "</span>"));
             }
         }
     }
